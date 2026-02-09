@@ -1,4 +1,6 @@
-<p align="center">Form4_Sniper</p>
+<p align="center">
+  <h1>Form4_Sniper</h1>
+</p>
 Form4_Sniper is a proprietary, high-frequency monitoring and execution platform designed to capitalize on SEC Form 4 filings. By analyzing "open market purchases" (Code P) by top-tier executives in real-time, the system identifies high-conviction signals where insiders are putting significant personal capital at risk.
 
 The program combines raw SEC data with a sophisticated Knowledge Hierarchy and Cluster Detection system to filter out noise and target trades with the highest statistical probability of success.
