@@ -17,7 +17,10 @@ Active Positions: Direct integration with Alpaca for real-time tracking of entri
 
 Strategy Logs: Detailed breakdown of why a specific filing triggered a "Buy" signal based on the scoring hierarchy.
 
-🧠 The "Knowledge Hierarchy" Strategy
+<p align="center">
+  <h1>🧠 The "Knowledge Hierarchy" Strategy</h1>
+</p>
+
 Unlike basic scanners, Form4_Sniper uses a weighted scoring system based on the insider's role and the context of the purchase.
 
 1. Scoring Engine
@@ -41,7 +44,12 @@ To ensure optimal entry, the bot integrates technical overlays:
 
 Small-Cap Multiplier: Lower value thresholds are applied for companies under $2B market cap, where insider buying has a more drastic impact on liquidity and price.
 
-🛡️ Risk Management & Execution
+
+<p align="center">
+  <h1>🛡️ Risk Management & Execution</h1>
+</p>
+
+
 The platform is built for disciplined trading, removing the emotional bias of manual execution.
 
 <p align="center"> <img src="assets/Settings.png" width="650" alt="Form4_Sniper Settings Menu"> </p>
@@ -52,7 +60,10 @@ Minimum Value Filters: Only tracks significant "skin in the game" (defaulting to
 
 Auto-Trading Mode: When enabled, the bot executes trades instantly via Alpaca API when a signal exceeds the user-defined point threshold.
 
-📊 Analytics & Reporting
+<p align="center">
+  <h1>📊 Analytics & Reporting</h1>
+</p>
+
 The system maintains a local SQLite database (trades.db) to track performance and refine the hierarchy.
 
 Success Rate by Title: Analyzes whether CEO buys or Cluster buys are yielding higher returns.
